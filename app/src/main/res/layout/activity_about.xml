@@ -17,7 +17,7 @@
             android:id="@+id/profile_image"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            tools:src="@drawable/irpan" />
+            android:src="@drawable/irpan" />
 
         <TextView
             android:layout_width="match_parent"
@@ -43,7 +43,7 @@
         <Button
             android:id="@+id/btn_back"
             style="@style/ButtonGeneral"
-            tools:text="Back"
+            android:text="Back"
             />
     </LinearLayout>
 
